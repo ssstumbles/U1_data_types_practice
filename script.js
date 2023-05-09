@@ -63,12 +63,15 @@ let array2 = [
   ['Marty Stuart', 'Marty McFly'],
   ['Marty Jannetty', 'Marty Robbins']
 ];
-console.log (array2[4])
+
+console.log (array2[1][1])
 
 let array3 = [
   ['Marty Feldman', ['Marty Marion']],
   ['Marty Stuart', ['Marty Janetty', ['Marty McFly'], 'Marty Robbins']]
 ];
+
+console.log (array3[1][1][1])
 
 /*
  * Prompt 2:
@@ -77,6 +80,7 @@ let array3 = [
  */
 
 let array = ['a', 'b', 'c', 'd', 'e'];
+console.log(array.length--)
 
 /*
  * Prompt 3:
