@@ -4,13 +4,16 @@
  * Declare a variable called myFavoriteSong on one line and console.log the value
  * Then, using your Literals, console.log "my favorite song is..." with the song's value
  */
-
+let myFavouriteSong = 'Seneca Falls'
+console.log(`My favourite song is ${myFavouriteSong}`)
 /*
  * Prompt 2:
  *
  * Declare 3 variables using each of let, const, and var, then console.log each of them
  */
-
+let age = 10
+const yearOfBirth = `1991`
+var oldSchool = `We're not using this one anymore!`
 /*
  * Prompt 3:
  *
