@@ -24,6 +24,12 @@ var oldSchool = `We're not using this one anymore!`
  *   - divide your variable by 7
  *   - calculate the remainder of dividing your variable by 2
  */
+let number = 5
+console.log(number++)
+console.log(number--)
+console.log(number*3)
+console.log(number/7)
+console.log(number%2)
 
 /*
  * Prompt 4:
@@ -37,7 +43,9 @@ var oldSchool = `We're not using this one anymore!`
  * Run a console.log that says 'hello my name is..." with your fullName. 
  */
 
-
+let firstName = `Ra`
+let lastName = `Rosic`
+console.log(`Hello my name is ${firstName} ${lastName}`)
 /* Arrays */
 
 
@@ -48,11 +56,15 @@ var oldSchool = `We're not using this one anymore!`
  */
 
 let array1 = ['Marty Marion', 'Marty Feldman', 'Marty McFly', 'Marty Marion'];
+console.log (array1[2])
+
 let array2 = [
   ['Marty Feldman', 'Marty Marion'],
   ['Marty Stuart', 'Marty McFly'],
   ['Marty Jannetty', 'Marty Robbins']
 ];
+console.log (array2[4])
+
 let array3 = [
   ['Marty Feldman', ['Marty Marion']],
   ['Marty Stuart', ['Marty Janetty', ['Marty McFly'], 'Marty Robbins']]
@@ -64,7 +76,7 @@ let array3 = [
  * Use the length of the array below to retrieve the second to last item.
  */
 
-let array4 = ['a', 'b', 'c', 'd', 'e'];
+let array = ['a', 'b', 'c', 'd', 'e'];
 
 /*
  * Prompt 3:
