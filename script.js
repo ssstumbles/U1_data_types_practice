@@ -80,7 +80,7 @@ console.log (array3[1][1][1])
  */
 
 let array = ['a', 'b', 'c', 'd', 'e'];
-console.log(array.length--)
+console.log(array[array.length-2])
 
 /*
  * Prompt 3:
